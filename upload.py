@@ -46,5 +46,5 @@ def recieve():
         return json.dumps({"data": result['text']}) 
 
 if __name__ == '__main__':  
-    app.run(IP_ADDRESS, debug = True)  
+    app.run(config.IP_ADDRESS, debug = True)  
 
