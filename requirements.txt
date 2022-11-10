@@ -1,0 +1,5 @@
+Flask==2.2.2
+Werkzeug==2.2.2
+whisper==1.0
+jsonify==0.5
+pydub==0.25.1
