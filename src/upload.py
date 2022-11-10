@@ -47,4 +47,3 @@ def recieve():
 
 if __name__ == '__main__':  
     app.run(config.IP_ADDRESS, debug = True)  
-
