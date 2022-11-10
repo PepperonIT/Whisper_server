@@ -3,8 +3,8 @@ Provides a server using OpenAI's Whisper to do transcribing on audio files, aswe
     *- success*
     *- recieve*
 
-*success:* send the wav file to a backend, that transcribes it into swedish, return a json with text.  
-*recieve:* Listens for a word/phrase, and return the first 2 sentences of that wikipedia search.  
+*success:* success 
+*recieve:* recieves audiofile and outputs a transcribed json file
 
 # tools / installation
 
