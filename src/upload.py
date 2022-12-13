@@ -31,10 +31,11 @@ def success():# pylint: disable=inconsistent-return-statements
         file.save(path)
         if path[:-3] == 'wav':
             AudioSegment.from_wav(path).export(path[:-3]+"mp3", format="mp3")
-            result = MODEL.transcribe(path[:-3]+"mp3", **{"language": "sv"})
+            # result = MODEL.transcribe(path[:-3]+"mp3", **{"language": "sv"}) #all lang
+            result = MODEL.transcribe(path[:-3]+"mp3")                         #tries swe first
         else:
-            result = MODEL.transcribe(path, **{"language": "sv"})
-
+            # result = MODEL.transcribe(path, **{"language": "sv"})
+            result = MODEL.transcribe(path)
         return render_template("success.html", data=result['text'])
 
 @APP.route('/recieve', methods=['POST'])
