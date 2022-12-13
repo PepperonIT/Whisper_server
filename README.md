@@ -43,4 +43,4 @@ and then return a text file.
 Currently same as above, under "Usage".
 
 # License
-TODO.
+MIT License
