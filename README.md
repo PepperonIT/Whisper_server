@@ -1,5 +1,5 @@
 # \<Web_Interaction>
-Provides a server using OpenAI's Whisper to do transcribing on audio files, aswell as a basic API supporting it
+Provides a server using OpenAI's Whisper to do transcribing on audio files, as well as a basic API supporting it
     *- success*
     *- recieve*
 
@@ -8,7 +8,7 @@ Provides a server using OpenAI's Whisper to do transcribing on audio files, aswe
 
 # tools / installation
 
-The tools revolvs around getting a basic server up with enabled API calls in order to transcribe an audiofile. Simplicity has been highly prioritized as we currently are not conserned with safety as the audio file and transcribed text do not contain any sensitive information. Also our focus is on implementing Pepper functionality so the server is just needed as there is no plausable way Pepper can do the transcribing within a decent time frame, so even with the RTT time this solution is significantly faster
+The tools revolves around getting a basic server up with enabled API calls in order to transcribe an audiofile. Simplicity has been highly prioritized as we currently are not concerned with safety as the audio file and transcribed text do not contain any sensitive information. Also our focus is on implementing Pepper functionality so the server is just needed as there is no plausable way Pepper can do the transcribing within a decent time frame, so even with the RTT time this solution is significantly faster
 
 ## server/whisper
 > [whisper](tools.md)
