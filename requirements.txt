@@ -3,3 +3,4 @@ jsonify==0.5
 pydub==0.25.1
 Werkzeug==2.2.2
 whisper==1.0
+config==0.5.1
